@@ -1,0 +1,26 @@
+{
+  "name": "jinyicheng/toolbox",
+  "description": "常用工具箱",
+  "keywords": [
+    "random",
+    "unique",
+    "lottery",
+    "data conversion"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jinyicheng",
+      "email": "234067496@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "jinyicheng\\toolbox\\": "src/"
+    }
+  }
+}
